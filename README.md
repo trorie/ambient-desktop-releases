@@ -17,6 +17,12 @@ Grab the latest versions from this repo's [Releases](../../releases) page.
 Windows will show a SmartScreen warning until our code signing lands: click **More info**, then
 **Run anyway**.
 
+### Checksums (SHA-256)
+
+| File | SHA-256 |
+| --- | --- |
+| `PrintStation-Setup-0.3.0.exe` | `909c72b886e313b1af530c23d2050f5f33c625b4f6db3d997c6e887df3e5659c` |
+
 ## Legal
 
 The EULA and privacy statement are in progress and not yet posted here pending attorney review.
