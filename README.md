@@ -1,28 +1,45 @@
-# Ambient Desktop — Releases
+# SerenKeep downloads
 
-Ambient Desktop is Future Maven's free face for a home computer: one small server runs on a machine
-you own, and a rail of modules — Files, Records, Mail, and more — reach it from any browser on your
-network. Longwire (media library and chain-of-custody records) and Print Station (direct photo
-printing) plug into the same hub as modules, so the suite installer gives you all three from one
-setup. Nothing here is a cloud account: your data stays on your own drive, on your own network.
+SerenKeep is a home server for your PC.
 
-## Downloads
+## Download
 
-- **Ambient Desktop** — the hub on its own, `AmbientDesktop-Setup-<version>.exe`
-- **Ambient Desktop Suite** — the hub with Longwire and Print Station included, `AmbientDesktopSuite-Setup-<version>.exe`
-- **Ambient Desktop (Linux, no root required)** — `ambient-desktop-<version>-linux-x64.tar.xz`
+The current release is **SerenKeep 0.4.0**, a signed Windows installer.
 
-Grab the latest versions from this repo's [Releases](../../releases) page.
+- **File:** [`SerenKeep-Setup-0.4.0.exe`](https://github.com/trorie/ambient-desktop-releases/releases/download/v0.4.0/SerenKeep-Setup-0.4.0.exe)
+- **Release page:** https://github.com/trorie/ambient-desktop-releases/releases/tag/v0.4.0
+- **SHA256:** `f3f86a85a83ffdcd6e7c17b73a6388bd303c5498bd39a52dab16ec704811582f`
+- `SHA256SUMS.txt` is attached to the release.
 
-Windows will show a SmartScreen warning until our code signing lands: click **More info**, then
-**Run anyway**.
+### Check the file
 
-### Checksums (SHA-256)
+In PowerShell, in the folder where you saved the installer:
 
-| File | SHA-256 |
-| --- | --- |
-| `PrintStation-Setup-0.3.0.exe` | `909c72b886e313b1af530c23d2050f5f33c625b4f6db3d997c6e887df3e5659c` |
+```powershell
+Get-FileHash .\SerenKeep-Setup-0.4.0.exe -Algorithm SHA256
+```
 
-## Legal
+The hash shown should match the SHA256 above.
 
-The EULA and privacy statement are in progress and not yet posted here pending attorney review.
+### Install
+
+When Windows asks to run the installer, check that the publisher shows **Future Maven LLC**.
+
+## Coming
+
+- The Android phone app still shows its old name; its rename is coming.
+- Letting a connected AI make changes is coming. In 0.4.0 it can only read.
+
+## History
+
+Older builds were released under former names. They are kept for reference only.
+
+| Tag | Date | Former name |
+| --- | --- | --- |
+| [v0.2.1](https://github.com/trorie/ambient-desktop-releases/releases/tag/v0.2.1) | 2026-09-16 | Mindow v0.2.1 |
+| [v0.2.0](https://github.com/trorie/ambient-desktop-releases/releases/tag/v0.2.0) | 2026-09-16 | Mindow v0.2.0 |
+| [v0.1.0](https://github.com/trorie/ambient-desktop-releases/releases/tag/v0.1.0) | 2026-09-14 | Ambient Desktop v0.1.0 |
+
+## Contact
+
+Questions: hello@serenkeep.com
