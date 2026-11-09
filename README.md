@@ -4,11 +4,11 @@ SerenKeep is a home server for your PC.
 
 ## Download
 
-The current release is **SerenKeep 0.4.0**, a signed Windows installer.
+The current release is **SerenKeep 0.8.0**, a signed Windows installer.
 
-- **File:** [`SerenKeep-Setup-0.4.0.exe`](https://github.com/trorie/ambient-desktop-releases/releases/download/v0.4.0/SerenKeep-Setup-0.4.0.exe)
-- **Release page:** https://github.com/trorie/ambient-desktop-releases/releases/tag/v0.4.0
-- **SHA256:** `f3f86a85a83ffdcd6e7c17b73a6388bd303c5498bd39a52dab16ec704811582f`
+- **File:** [`SerenKeep-Setup-0.8.0.exe`](https://github.com/trorie/ambient-desktop-releases/releases/download/v0.8.0/SerenKeep-Setup-0.8.0.exe)
+- **Release page:** https://github.com/trorie/ambient-desktop-releases/releases/tag/v0.8.0
+- **SHA256:** `99994f08159573d60c734005c053f65bb248c6f135a644d87105a0e9baa6e70b`
 - `SHA256SUMS.txt` is attached to the release.
 
 ### Check the file
@@ -16,29 +16,29 @@ The current release is **SerenKeep 0.4.0**, a signed Windows installer.
 In PowerShell, in the folder where you saved the installer:
 
 ```powershell
-Get-FileHash .\SerenKeep-Setup-0.4.0.exe -Algorithm SHA256
+Get-FileHash .\SerenKeep-Setup-0.8.0.exe -Algorithm SHA256
 ```
 
 The hash shown should match the SHA256 above.
 
 ### Install
 
-When Windows asks to run the installer, check that the publisher shows **Future Maven LLC**.
+When Windows asks to run the installer, check that the publisher shows **Future Maven LLC**. The release page lists what is new and what is still coming.
 
-## Coming
+## Phone app
 
-- The Android phone app still shows its old name; its rename is coming.
-- Letting a connected AI make changes is coming. In 0.4.0 it can only read.
+- The Android phone app is a separate download and is not part of this release.
 
 ## History
 
-Older builds were released under former names. They are kept for reference only.
+Older builds are kept for reference only.
 
-| Tag | Date | Former name |
+| Tag | Date | Name |
 | --- | --- | --- |
-| [v0.2.1](https://github.com/trorie/ambient-desktop-releases/releases/tag/v0.2.1) | 2026-09-16 | Mindow v0.2.1 |
-| [v0.2.0](https://github.com/trorie/ambient-desktop-releases/releases/tag/v0.2.0) | 2026-09-16 | Mindow v0.2.0 |
-| [v0.1.0](https://github.com/trorie/ambient-desktop-releases/releases/tag/v0.1.0) | 2026-09-14 | Ambient Desktop v0.1.0 |
+| [v0.4.0](https://github.com/trorie/ambient-desktop-releases/releases/tag/v0.4.0) | 2026-10-17 | SerenKeep 0.4.0 |
+| [v0.2.1](https://github.com/trorie/ambient-desktop-releases/releases/tag/v0.2.1) | 2026-09-16 | Mindow v0.2.1 (former name) |
+| [v0.2.0](https://github.com/trorie/ambient-desktop-releases/releases/tag/v0.2.0) | 2026-09-16 | Mindow v0.2.0 (former name) |
+| [v0.1.0](https://github.com/trorie/ambient-desktop-releases/releases/tag/v0.1.0) | 2026-09-14 | Ambient Desktop v0.1.0 (former name) |
 
 ## Contact
 
