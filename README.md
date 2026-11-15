@@ -4,11 +4,11 @@ SerenKeep is a home server for your PC.
 
 ## Download
 
-The current release is **SerenKeep 0.9.10**, a signed Windows installer.
+The current release is **SerenKeep 0.9.11**, a signed Windows installer.
 
-- **File:** [`SerenKeep-Setup-0.9.10.exe`](https://github.com/trorie/ambient-desktop-releases/releases/download/v0.9.10/SerenKeep-Setup-0.9.10.exe)
-- **Release page:** https://github.com/trorie/ambient-desktop-releases/releases/tag/v0.9.10
-- **SHA256:** `d8cc356382c59a74c1b9324b089878fa4ca63bcb3aa91aea6be17ac5f1496e95`
+- **File:** [`SerenKeep-Setup-0.9.11.exe`](https://github.com/trorie/ambient-desktop-releases/releases/download/v0.9.11/SerenKeep-Setup-0.9.11.exe)
+- **Release page:** https://github.com/trorie/ambient-desktop-releases/releases/tag/v0.9.11
+- **SHA256:** `0a229d84d5f88f3d72a4f7eab96b5025c796784feed2d1e3249d81d395a33b35`
 - `SHA256SUMS.txt` is attached to the release.
 
 ### Check the file
@@ -16,7 +16,7 @@ The current release is **SerenKeep 0.9.10**, a signed Windows installer.
 In PowerShell, in the folder where you saved the installer:
 
 ```powershell
-Get-FileHash .\SerenKeep-Setup-0.9.10.exe -Algorithm SHA256
+Get-FileHash .\SerenKeep-Setup-0.9.11.exe -Algorithm SHA256
 ```
 
 The hash shown should match the SHA256 above.
@@ -35,6 +35,7 @@ Older builds are kept for reference only.
 
 | Tag | Date | Name |
 | --- | --- | --- |
+| [v0.9.10](https://github.com/trorie/ambient-desktop-releases/releases/tag/v0.9.10) | 2026-11-14 | SerenKeep 0.9.10 |
 | [v0.9.9](https://github.com/trorie/ambient-desktop-releases/releases/tag/v0.9.9) | 2026-11-14 | SerenKeep 0.9.9 |
 | [v0.9.8](https://github.com/trorie/ambient-desktop-releases/releases/tag/v0.9.8) | 2026-11-13 | SerenKeep 0.9.8 |
 | [v0.9.7](https://github.com/trorie/ambient-desktop-releases/releases/tag/v0.9.7) | 2026-11-13 | SerenKeep 0.9.7 |
